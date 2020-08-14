@@ -1,0 +1,27 @@
+.cusTable tr:nth-of-type(odd) {
+  background-color: #e3fdfd !important;
+}
+
+.cusTable tr:nth-of-type(even) {
+  background-color: white !important;
+}
+
+.cusTable .header-td {
+  padding: 0 15px;
+  border-bottom: 1px solid #71c9ce;
+  border-left: 1px solid #a6e3e9;
+}
+.cusTable .header-field {
+  display: flex;
+  justify-content: space-between;
+}
+.cusTable .header-field span.right {
+  color: #71c9ce;
+}
+.cusTable .body-tr {
+  text-align: left;
+}
+
+.cusTable .body-td {
+  padding-left: 15px;
+}
